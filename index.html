@@ -16,7 +16,7 @@
     <meta name="robots" content="index, follow">
 
     <meta property="og:title" content="Selçuk IPTV - En Ucuz ve Kaliteli hizmet">
-    <meta property="og:description" content="8000+ kanal, HD yayın kalitesi ve kesintisiz SelçukSports ile Selçuk IPTV ayrıcalığını keşfedin. Güçlü altyapı, stabil yayın, maksimum keyif.">
+    <meta property="og:description" content="Selçuk IPTV ile 8000+ kanal, 4K yayın ve kesintisiz SelçukSports. Güçlü altyapı, anında teslim.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://selcukiptv2.com">
     <meta property="og:site_name" content="Selçuk IPTV">
@@ -25,6 +25,46 @@
     <meta name="google-site-verification" content="yf4SwgmEDs0X-WG0ZN8wWmnye9fHvQezD4h8_fkUSJI" />
 
     <link rel="amphtml" href="https://amp.selcukiptv.xyz/">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://selcukiptv2.com/#organization",
+                "name": "Selçuk IPTV",
+                "url": "https://selcukiptv2.com",
+                "logo": "https://i.ibb.co/wNFhy7c8/content-removebg-preview.png",
+                "sameAs": ["https://t.me/selcukdestek"],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer support",
+                    "availableLanguage": ["Turkish"],
+                    "url": "https://t.me/selcukdestek"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://selcukiptv2.com/#website",
+                "url": "https://selcukiptv2.com",
+                "name": "Selçuk IPTV",
+                "publisher": { "@id": "https://selcukiptv2.com/#organization" },
+                "inLanguage": "tr-TR"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://selcukiptv2.com/#webpage",
+                "url": "https://selcukiptv2.com",
+                "name": "Selçuk IPTV - En Ucuz ve Kaliteli hizmet",
+                "isPartOf": { "@id": "https://selcukiptv2.com/#website" },
+                "about": { "@id": "https://selcukiptv2.com/#organization" },
+                "description": "Selçuk IPTV ile 8000+ kanal, 4K yayın ve kesintisiz SelçukSports.",
+                "inLanguage": "tr-TR"
+            }
+        ]
+    }
+    </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -91,7 +131,7 @@
 
     <header class="fixed w-full z-50 top-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm" id="navbar">
         <div class="container mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-2 group">
+            <a href="/" class="flex items-center gap-2 group">
                 <i
                     class="fas fa-play-circle text-3xl text-primary transform group-hover:scale-110 transition-transform"></i>
                 <span class="text-xl font-bold text-slate-800 tracking-tight">Selçuk<span
@@ -99,11 +139,11 @@
             </a>
 
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <a href="#anasayfa" class="text-slate-600 hover:text-primary transition-colors">Anasayfa</a>
-                <a href="#ozellikler" class="text-slate-600 hover:text-primary transition-colors">Özellikler</a>
-                <a href="#paketler" class="text-slate-600 hover:text-primary transition-colors">Paketler</a>
-                <a href="#sss" class="text-slate-600 hover:text-primary transition-colors">S.S.S</a>
-                <a href="#iletisim" class="text-slate-600 hover:text-primary transition-colors">İletişim</a>
+                <a href="/" class="text-primary font-semibold">Anasayfa</a>
+                <a href="/iptv-test-al/" class="text-slate-600 hover:text-primary transition-colors">Test Al</a>
+                <a href="/iptv-satin-al/" class="text-slate-600 hover:text-primary transition-colors">IPTV Satın Al</a>
+                <a href="/#sss" class="text-slate-600 hover:text-primary transition-colors">S.S.S</a>
+                <a href="/iletisim/" class="text-slate-600 hover:text-primary transition-colors">İletişim</a>
             </nav>
 
             <div class="flex items-center gap-4">
@@ -120,10 +160,11 @@
 
         <div class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg" id="mobile-menu">
             <div class="flex flex-col p-6 gap-4 text-center">
-                <a href="#anasayfa" class="py-2 text-slate-700 font-medium">Anasayfa</a>
-                <a href="#ozellikler" class="py-2 text-slate-700 font-medium">Özellikler</a>
-                <a href="#paketler" class="py-2 text-slate-700 font-medium">Paketler</a>
-                <a href="#sss" class="py-2 text-slate-700 font-medium">S.S.S</a>
+                <a href="/" class="py-2 text-primary font-semibold">Anasayfa</a>
+                <a href="/iptv-test-al/" class="py-2 text-slate-700 font-medium">Test Al</a>
+                <a href="/iptv-satin-al/" class="py-2 text-slate-700 font-medium">IPTV Satın Al</a>
+                <a href="/#sss" class="py-2 text-slate-700 font-medium">S.S.S</a>
+                <a href="/iletisim/" class="py-2 text-slate-700 font-medium">İletişim</a>
                 <a href="https://lixy.me/c/slckpanel" class="px-6 py-3 rounded-lg bg-primary text-white font-semibold">Kullanıcı Paneli Giriş</a>
             </div>
         </div>
@@ -138,19 +179,21 @@
                         Türkiye'nin Lider Yayın Sağlayıcısı
                     </div>
                     <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-                        Selçuk <span class="text-primary">IPTV Satın Al</span> <br>
-                        Kesintisiz Yayına Başla
+                        Selçuk <span class="text-primary">IPTV</span> ile<br>
+                        Kesintisiz 4K Yayın
                     </h1>
                     <p class="text-lg text-slate-500 mb-8 leading-relaxed max-w-2xl mx-auto">
-                        Donma ve takılma olmadan 4K kalitesinde maç keyfi. <strong class="text-slate-700">Selçuk
-                            IPTV</strong> güvencesiyle 10.000+ kanal ve zengin içerik arşivini hemen <strong>satın al</strong>.
+                        Donma ve takılma olmadan 4K kalitesinde maç keyfi.
+                        <strong class="text-slate-700">Selçuk IPTV</strong> güvencesiyle 10.000+ kanal ve zengin içerik arşivini
+                        hemen <a href="/iptv-satin-al/" class="text-primary font-semibold hover:underline">IPTV satın al</a>
+                        veya önce <a href="/iptv-test-al/" class="text-primary font-semibold hover:underline">ücretsiz test al</a>.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="#paketler"
+                        <a href="/iptv-satin-al/"
                             class="px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold shadow-lg shadow-slate-200 hover:shadow-xl transition-all">
                             IPTV Satın Al
                         </a>
-                        <a href="#test-al"
+                        <a href="/iptv-test-al/"
                             class="px-8 py-4 rounded-xl bg-white border border-slate-200 text-slate-700 font-bold hover:bg-orange-50 hover:border-orange-200 hover:text-primary transition-all shadow-sm">
                             <i class="fas fa-flask mr-2"></i> Test Al
                         </a>
@@ -211,7 +254,9 @@
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">7/24 Kesintisiz Destek</h3>
                     <p class="text-slate-500 text-sm leading-relaxed">
-                        Satış öncesi ve sonrası teknik ekibimiz her zaman yanınızda. Kurulum desteği ücretsizdir.
+                        Satış öncesi ve sonrası teknik ekibimiz her zaman yanınızda.
+                        <a href="/iletisim/" class="text-primary font-semibold hover:underline">İletişim</a> sayfamızdan
+                        kurulum desteği ücretsizdir.
                     </p>
                 </div>
             </div>
@@ -231,7 +276,8 @@
                             ligleri evinize geliyor.
                         </p>
                         <p class="text-slate-600 leading-relaxed">
-                            Aylık yüksek faturalar ödemeden, <strong class="text-slate-900">IPTV satın al</strong>arak
+                            Aylık yüksek faturalar ödemeden,
+                            <a href="/iptv-satin-al/" class="text-primary font-semibold hover:underline">IPTV satın al</a>arak
                             ekonomik ve kaliteli yayın keyfine varın.
                             Sinema, belgesel ve çocuk kanalları ile aileniz için de en iyi seçenek.
                         </p>
@@ -261,10 +307,11 @@
                 <div class="md:w-3/5">
                     <span class="text-primary font-bold tracking-wider text-sm uppercase mb-2 block">ÜCRETSİZ
                         DENEME</span>
-                    <h2 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">Kaliteyi Görmeden <br>Karar Vermeyin
+                    <h2 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">Ücretsiz IPTV Testi Alın
                     </h2>
                     <p class="text-slate-300 text-lg mb-8 leading-relaxed">
-                        Selçuk IPTV kalitesini test etmeniz için size <strong>2 Saatlik Ücretsiz Deneme</strong>
+                        Selçuk IPTV kalitesini denemeniz için
+                        <a href="/iptv-test-al/" class="text-white font-semibold underline underline-offset-4 hover:text-primary">2 saatlik ücretsiz test</a>
                         sunuyoruz.
                         Yayınlarımızın görüntü kalitesini, hızını ve kanal çeşitliliğini hiçbir ücret ödemeden
                         deneyimleyin.
@@ -281,13 +328,16 @@
                 <div class="md:w-2/5 text-center">
                     <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl shadow-2xl">
                         <i class="fas fa-play-circle text-6xl text-green-500 mb-6 block"></i>
-                        <h3 class="text-2xl font-bold mb-4">Hemen Test Alın</h3>
+                        <h3 class="text-2xl font-bold mb-4">2 Saatlik Ücretsiz Deneme</h3>
                         <p class="text-slate-400 text-sm mb-6">
                             Aşağıdaki butona tıklayarak sistemimizden anında otomatik test yayını alabilirsiniz.
                         </p>
                         <a href="https://lixy.me/c/sitetest" target="_blank"
                             class="block w-full py-4 rounded-xl bg-green-500 hover:bg-green-600 text-white font-bold shadow-lg shadow-green-900/50 transition-all transform hover:scale-105">
                             <i class="fas fa-check-circle mr-2"></i> Hemen Test Al
+                        </a>
+                        <a href="/iptv-test-al/" class="block mt-3 text-sm text-slate-400 hover:text-white transition-colors">
+                            Test sayfasına git <i class="fas fa-arrow-right ml-1"></i>
                         </a>
                     </div>
                 </div>
@@ -299,8 +349,8 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <span class="text-primary font-bold tracking-wider text-sm uppercase">IPTV SATIN AL</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2">Hemen IPTV Satın Alın</h2>
-                <p class="text-slate-500 mt-4">Size en uygun paketi seçin ve anında izlemeye başlayın.</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2">Popüler Paketler</h2>
+                <p class="text-slate-500 mt-4">Size en uygun paketi seçin ve anında izlemeye başlayın. Detaylı fiyatlar için <a href="/iptv-satin-al/" class="text-primary font-semibold hover:underline">IPTV satın al</a> sayfasına gidin.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
@@ -482,7 +532,7 @@
                                 class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                                 <i class="fas fa-cog"></i>
                             </div>
-                            <span>Kurulum işlemi zor mu?</span>
+                            <h3 class="text-lg font-semibold">Kurulum işlemi zor mu?</h3>
                         </div>
                         <span class="text-slate-400 group-hover:text-primary transition-colors duration-300">
                             <i class="fas fa-plus group-open:hidden"></i>
@@ -491,7 +541,9 @@
                     </summary>
                     <div class="px-6 pb-6 pl-20 text-slate-500 leading-relaxed border-t border-slate-50 mt-2 pt-4">
                         Hayır, satın alım sonrası size iletilen M3U linkini veya kullanıcı bilgilerini ilgili uygulamaya
-                        girmeniz yeterlidir. Telegram destek hattımızdan resimli anlatım talep edebilirsiniz.
+                        girmeniz yeterlidir.
+                        <a href="/iletisim/" class="text-primary font-semibold hover:underline">İletişim</a>
+                        sayfamızdaki Telegram hattımızdan resimli anlatım talep edebilirsiniz.
                     </div>
                 </details>
 
@@ -504,7 +556,7 @@
                                 class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                                 <i class="fas fa-wifi"></i>
                             </div>
-                            <span>Yayınlarda donma olur mu?</span>
+                            <h3 class="text-lg font-semibold">Yayınlarda donma olur mu?</h3>
                         </div>
                         <span class="text-slate-400 group-hover:text-primary transition-colors duration-300">
                             <i class="fas fa-plus group-open:hidden"></i>
@@ -527,7 +579,7 @@
                                 class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                                 <i class="fas fa-credit-card"></i>
                             </div>
-                            <span>Hangi ödeme yöntemleri var?</span>
+                            <h3 class="text-lg font-semibold">Hangi ödeme yöntemleri var?</h3>
                         </div>
                         <span class="text-slate-400 group-hover:text-primary transition-colors duration-300">
                             <i class="fas fa-plus group-open:hidden"></i>
@@ -535,7 +587,9 @@
                         </span>
                     </summary>
                     <div class="px-6 pb-6 pl-20 text-slate-500 leading-relaxed border-t border-slate-50 mt-2 pt-4">
-                        Tüm kredi kartları ile 3D Secure güvencesiyle panelimiz üzerinden güvenle ödeme yapabilirsiniz.
+                        Tüm kredi kartları ile 3D Secure güvencesiyle
+                        <a href="/iptv-satin-al/" class="text-primary font-semibold hover:underline">IPTV satın al</a>
+                        sayfasındaki panel üzerinden güvenle ödeme yapabilirsiniz.
                     </div>
                 </details>
 
@@ -548,7 +602,7 @@
                                 class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                                 <i class="fas fa-mobile-alt"></i>
                             </div>
-                            <span>Mobilden izleyebilir miyim?</span>
+                            <h3 class="text-lg font-semibold">Mobilden izleyebilir miyim?</h3>
                         </div>
                         <span class="text-slate-400 group-hover:text-primary transition-colors duration-300">
                             <i class="fas fa-plus group-open:hidden"></i>
@@ -564,26 +618,30 @@
         </div>
     </section>
 
-    <footer id="iletisim" class="bg-white border-t border-slate-200 pt-16 pb-8 text-center">
+    <footer class="bg-white border-t border-slate-200 pt-16 pb-8 text-center">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-12 mb-12 items-start">
                 <div class="flex flex-col items-center">
-                    <a href="#" class="inline-block text-xl font-bold text-slate-800 tracking-tight mb-4">
+                    <a href="/" class="inline-block text-xl font-bold text-slate-800 tracking-tight mb-4">
                         Selçuk<span class="text-primary">IPTV</span>
                     </a>
                     <p class="text-slate-500 text-sm leading-relaxed max-w-xs mx-auto">
-                        Güvenilir, hızlı ve kaliteli IPTV hizmetinin adresi. 2025'in en iyi yayın sağlayıcısı.
+                        Güvenilir, hızlı ve kaliteli IPTV hizmetinin adresi. 2026'nın en iyi yayın sağlayıcısı.
                     </p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <h4 class="font-bold text-slate-900 mb-4">Site Haritası</h4>
+                    <p class="font-bold text-slate-900 mb-4">Site Haritası</p>
                     <ul class="space-y-2 text-sm text-slate-500">
-                        <li><a href="#anasayfa" class="hover:text-primary">Anasayfa</a></li>
-                        <li><a href="#ozellikler" class="hover:text-primary">Neden Biz?</a></li>
+                        <li><a href="/" class="hover:text-primary">Anasayfa</a></li>
+                        <li><a href="/#ozellikler" class="hover:text-primary">Neden Selçuk IPTV?</a></li>
+                        <li><a href="/iptv-test-al/" class="hover:text-primary">Ücretsiz Test Al</a></li>
+                        <li><a href="/iptv-satin-al/" class="hover:text-primary">IPTV Satın Al</a></li>
+                        <li><a href="/#sss" class="hover:text-primary">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="/iletisim/" class="hover:text-primary">İletişim</a></li>
                     </ul>
                 </div>
                 <div class="flex flex-col items-center">
-                    <h4 class="font-bold text-slate-900 mb-4">Bize Ulaşın</h4>
+                    <p class="font-bold text-slate-900 mb-4">Bize Ulaşın</p>
                     <p class="text-sm text-slate-500 mb-4">Sorularınız için 7/24 buradayız.</p>
                     <a href="https://t.me/selcukdestek"
                         class="inline-flex items-center justify-center px-8 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors font-medium">
